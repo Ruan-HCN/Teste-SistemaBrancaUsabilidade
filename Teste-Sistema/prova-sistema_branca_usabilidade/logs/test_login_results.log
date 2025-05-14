@@ -1,0 +1,114 @@
+2025-05-03 21:12:16,705 - INFO - Logging configurado para console e arquivo: logs\test_login_results.log
+2025-05-03 21:12:16,706 - INFO - ====== WebDriver manager ======
+2025-05-03 21:12:19,490 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-03 21:12:19,683 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-03 21:12:19,743 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-03 21:12:20,072 - INFO - WebDriver version 136.0.7103.49 selected
+2025-05-03 21:12:20,077 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.49/win32/chromedriver-win32.zip
+2025-05-03 21:12:20,077 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.49/win32/chromedriver-win32.zip
+2025-05-03 21:12:20,254 - INFO - Driver downloading response is 200
+2025-05-03 21:12:20,683 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-03 21:12:21,699 - INFO - Driver has been saved in cache [C:\Users\ruanh\.wdm\drivers\chromedriver\win64\136.0.7103.49]
+2025-05-03 21:12:24,238 - INFO - Acessando a página: http://127.0.0.1:5500/login.html
+2025-05-03 21:12:25,316 - INFO - Tentativa 1 (Inválida): E-mail digitado: ''
+2025-05-03 21:12:25,374 - INFO - Tentativa 1 (Inválida): Senha digitada: ''
+2025-05-03 21:12:25,440 - INFO - Tentativa 1 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-03 21:12:27,446 - INFO - --- Logs do Navegador (Tentativa 1 Inválida) ---
+2025-05-03 21:12:27,448 - INFO - Log Navegador: {'level': 'SEVERE', 'message': 'http://127.0.0.1:5500/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1746317544236}
+2025-05-03 21:12:27,451 - INFO - --- Fim Logs do Navegador (Tentativa 1 Inválida) ---
+2025-05-03 21:12:27,512 - INFO - Tentativa 2 (Inválida): E-mail digitado: ' '
+2025-05-03 21:12:27,564 - INFO - Tentativa 2 (Inválida): Senha digitada: ' '
+2025-05-03 21:12:27,616 - INFO - Tentativa 2 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-03 21:12:29,680 - INFO - Tentativa 3 (Inválida): E-mail digitado: 'usuarioemail.com'
+2025-05-03 21:12:29,732 - INFO - Tentativa 3 (Inválida): Senha digitada: '1@'
+2025-05-03 21:12:29,787 - INFO - Tentativa 3 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-03 21:12:31,847 - INFO - Tentativa 4 (Inválida): E-mail digitado: 'usuario@'
+2025-05-03 21:12:31,902 - INFO - Tentativa 4 (Inválida): Senha digitada: '@Abc'
+2025-05-03 21:12:31,961 - INFO - Tentativa 4 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-03 21:12:34,026 - INFO - Tentativa 5 (Inválida): E-mail digitado: 'usuario@email'
+2025-05-03 21:12:34,086 - INFO - Tentativa 5 (Inválida): Senha digitada: '1Abc'
+2025-05-03 21:12:34,170 - INFO - Tentativa 5 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-03 21:12:36,234 - INFO - Tentativa 6 (Inválida): E-mail digitado: 'usuario@email'
+2025-05-03 21:12:36,292 - INFO - Tentativa 6 (Inválida): Senha digitada: '1@abc'
+2025-05-03 21:12:36,358 - INFO - Tentativa 6 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-03 21:12:38,422 - INFO - Tentativa 7 (Inválida): E-mail digitado: 'usuario@email'
+2025-05-03 21:12:38,486 - INFO - Tentativa 7 (Inválida): Senha digitada: '1@ABC'
+2025-05-03 21:12:38,540 - INFO - Tentativa 7 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-03 21:12:41,613 - INFO - Tentativa 8: E-mail digitado: 'teste@email.com'
+2025-05-03 21:12:41,672 - INFO - Tentativa 8: Senha digitada: '1@Ab'
+2025-05-03 21:12:41,732 - INFO - Tentativa 8: Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-03 21:12:41,740 - WARNING - Tentativa 8: Login FALHOU. Permaneceu em http://127.0.0.1:5500/login.html
+2025-05-03 21:12:41,811 - INFO - Tentativa 9: E-mail digitado: 'teste@email.com'
+2025-05-03 21:12:41,870 - INFO - Tentativa 9: Senha digitada: 'abc'
+2025-05-03 21:12:41,935 - INFO - Tentativa 9: Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-03 21:12:47,021 - WARNING - Tentativa 9: Login FALHOU. Permaneceu em http://127.0.0.1:5500/login.html
+2025-05-03 21:12:47,090 - INFO - Tentativa 10: E-mail digitado: 'errado@email.com'
+2025-05-03 21:12:47,150 - INFO - Tentativa 10: Senha digitada: '1@Bc'
+2025-05-03 21:12:47,205 - INFO - Tentativa 10: Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-03 21:12:47,218 - WARNING - Tentativa 10: Login FALHOU. Permaneceu em http://127.0.0.1:5500/login.html
+2025-05-03 21:12:47,290 - INFO - Tentativa 11: E-mail digitado: 'usuario@fake.com'
+2025-05-03 21:12:47,351 - INFO - Tentativa 11: Senha digitada: '2@Cd'
+2025-05-03 21:12:47,408 - INFO - Tentativa 11: Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-03 21:12:47,419 - WARNING - Tentativa 11: Login FALHOU. Permaneceu em http://127.0.0.1:5500/login.html
+2025-05-03 21:12:47,489 - INFO - Tentativa 12: E-mail digitado: 'teste@email.com'
+2025-05-03 21:12:47,551 - INFO - Tentativa 12: Senha digitada: '1@Bc'
+2025-05-03 21:12:47,653 - INFO - Tentativa 12: Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-03 21:12:47,661 - INFO - Tentativa 12: Login bem-sucedido - Redirecionado para http://127.0.0.1:5500/sucesso.html
+2025-05-03 21:12:50,766 - INFO - Navegador fechado.
+2025-05-04 19:41:59,202 - INFO - Logging configurado para console e arquivo: logs\test_login_results.log
+2025-05-04 19:41:59,204 - INFO - ====== WebDriver manager ======
+2025-05-04 19:42:00,015 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-04 19:42:00,144 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-04 19:42:00,216 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-04 19:42:00,504 - INFO - WebDriver version 136.0.7103.49 selected
+2025-05-04 19:42:00,512 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.49/win32/chromedriver-win32.zip
+2025-05-04 19:42:00,514 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.49/win32/chromedriver-win32.zip
+2025-05-04 19:42:00,714 - INFO - Driver downloading response is 200
+2025-05-04 19:42:01,306 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-04 19:42:02,394 - INFO - Driver has been saved in cache [C:\Users\ruanh\.wdm\drivers\chromedriver\win64\136.0.7103.49]
+2025-05-04 19:42:05,672 - INFO - Acessando a página: http://127.0.0.1:5500/login.html
+2025-05-04 19:42:06,793 - INFO - Tentativa 1 (Inválida): E-mail digitado: ''
+2025-05-04 19:42:06,854 - INFO - Tentativa 1 (Inválida): Senha digitada: ''
+2025-05-04 19:42:06,923 - INFO - Tentativa 1 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-04 19:42:08,925 - INFO - --- Logs do Navegador (Tentativa 1 Inválida) ---
+2025-05-04 19:42:08,926 - INFO - Log Navegador: {'level': 'SEVERE', 'message': 'http://127.0.0.1:5500/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1746398525673}
+2025-05-04 19:42:08,927 - INFO - --- Fim Logs do Navegador (Tentativa 1 Inválida) ---
+2025-05-04 19:42:08,982 - INFO - Tentativa 2 (Inválida): E-mail digitado: ' '
+2025-05-04 19:42:09,045 - INFO - Tentativa 2 (Inválida): Senha digitada: ' '
+2025-05-04 19:42:09,116 - INFO - Tentativa 2 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-04 19:42:11,225 - INFO - Tentativa 3 (Inválida): E-mail digitado: 'usuarioemail.com'
+2025-05-04 19:42:11,314 - INFO - Tentativa 3 (Inválida): Senha digitada: '1@'
+2025-05-04 19:42:11,373 - INFO - Tentativa 3 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-04 19:42:13,474 - INFO - Tentativa 4 (Inválida): E-mail digitado: 'usuario@'
+2025-05-04 19:42:13,535 - INFO - Tentativa 4 (Inválida): Senha digitada: '@Abc'
+2025-05-04 19:42:13,611 - INFO - Tentativa 4 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-04 19:42:15,683 - INFO - Tentativa 5 (Inválida): E-mail digitado: 'usuario@email'
+2025-05-04 19:42:15,751 - INFO - Tentativa 5 (Inválida): Senha digitada: '1Abc'
+2025-05-04 19:42:15,829 - INFO - Tentativa 5 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-04 19:42:17,986 - INFO - Tentativa 6 (Inválida): E-mail digitado: 'usuario@email'
+2025-05-04 19:42:18,047 - INFO - Tentativa 6 (Inválida): Senha digitada: '1@abc'
+2025-05-04 19:42:18,129 - INFO - Tentativa 6 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-04 19:42:20,203 - INFO - Tentativa 7 (Inválida): E-mail digitado: 'usuario@email'
+2025-05-04 19:42:20,266 - INFO - Tentativa 7 (Inválida): Senha digitada: '1@ABC'
+2025-05-04 19:42:20,324 - INFO - Tentativa 7 (Inválida): Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-04 19:42:23,457 - INFO - Tentativa 8: E-mail digitado: 'teste@email.com'
+2025-05-04 19:42:23,516 - INFO - Tentativa 8: Senha digitada: '1@Ab'
+2025-05-04 19:42:23,586 - INFO - Tentativa 8: Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-04 19:42:23,616 - WARNING - Tentativa 8: Login FALHOU. Permaneceu em http://127.0.0.1:5500/login.html
+2025-05-04 19:42:23,688 - INFO - Tentativa 9: E-mail digitado: 'teste@email.com'
+2025-05-04 19:42:23,770 - INFO - Tentativa 9: Senha digitada: 'abc'
+2025-05-04 19:42:23,828 - INFO - Tentativa 9: Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-04 19:42:29,010 - WARNING - Tentativa 9: Login FALHOU. Permaneceu em http://127.0.0.1:5500/login.html
+2025-05-04 19:42:29,082 - INFO - Tentativa 10: E-mail digitado: 'errado@email.com'
+2025-05-04 19:42:29,149 - INFO - Tentativa 10: Senha digitada: '1@Bc'
+2025-05-04 19:42:29,206 - INFO - Tentativa 10: Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-04 19:42:29,217 - WARNING - Tentativa 10: Login FALHOU. Permaneceu em http://127.0.0.1:5500/login.html
+2025-05-04 19:42:29,294 - INFO - Tentativa 11: E-mail digitado: 'usuario@fake.com'
+2025-05-04 19:42:29,354 - INFO - Tentativa 11: Senha digitada: '2@Cd'
+2025-05-04 19:42:29,421 - INFO - Tentativa 11: Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-04 19:42:29,433 - WARNING - Tentativa 11: Login FALHOU. Permaneceu em http://127.0.0.1:5500/login.html
+2025-05-04 19:42:29,507 - INFO - Tentativa 12: E-mail digitado: 'teste@email.com'
+2025-05-04 19:42:29,568 - INFO - Tentativa 12: Senha digitada: '1@Bc'
+2025-05-04 19:42:29,688 - INFO - Tentativa 12: Teclas TAB + ENTER enviadas para o botão 'Entrar'.
+2025-05-04 19:42:29,698 - INFO - Tentativa 12: Login bem-sucedido - Redirecionado para http://127.0.0.1:5500/sucesso.html
+2025-05-04 19:42:34,817 - INFO - Navegador fechado.
